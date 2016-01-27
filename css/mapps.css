@@ -1,3 +1,5 @@
+
+
 /* LOGGAN */
 
 #st0 {
@@ -22,3 +24,24 @@
 }
 
 
+/* ABOUT */
+
+
+
+.wrapper-about {
+    height: 200px;
+    
+}
+ 
+.shape img {
+    height: inherit;
+    display: inline-block;
+}
+
+.shape {
+    height: inherit;
+	background-image: url("https://scontent-ams2-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12345417_883942058385617_4376926535328629984_n.jpg?oh=f9a85a0ffd8f4e3ced31bb3aa23be4fb&oe=573EA611");
+	-webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+	clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+	display: inline;
+}

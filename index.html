@@ -22,7 +22,7 @@
 <body>
   
 
-  <div id="main-logo-page" class="container-fluid">
+  <section id="main-logo-page" class="container-fluid">
 
     <div class="row">
         <div class="col-xs-4 col-xs-offset-4">
@@ -77,23 +77,19 @@
         </ul>
         
     </nav>
-  </div>
+  </section>
 
 
-
-
-  <nav id="floating-menu"></nav>
-
-  <div id="about">
+  <section id="about" class="container-fluid">
     <div id="about-main">
-        <header>
+        <header class="text-center ">
             <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis turpis libero"</h2>
         </header>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis turpis libero, interdum sodales risus in, euismod varius ipsum. Phasellus nec auctor felis, varius placerat libero. Suspendisse in porta justo, id elementum dui. Fusce sed efficitur nulla. Proin vitae dapibus leo. Cras porta odio faucibus ipsum egestas, ac pellentesque nibh dignissim. Nam placerat lorem ipsum, ac faucibus augue sodales ac. Praesent et arcu elementum, mattis ipsum non, aliquam nisi. Donec pulvinar sapien at est dignissim aliquam. Sed a tellus quis felis sollicitudin molestie. Phasellus ac ex ornare diam eleifend semper et vel metus. In hac habitasse platea dictumst. Integer laoreet metus leo, in consequat arcu bibendum a. Etiam nunc elit, facilisis id malesuada non, pellentesque a magna. Nulla nec posuere massa.</p>
+      <p class="col-md-8 col-md-offset-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis turpis libero, interdum sodales risus in, euismod varius ipsum. Phasellus nec auctor felis, varius placerat libero. Suspendisse in porta justo, id elementum dui. Fusce sed efficitur nulla. Proin vitae dapibus leo. Cras porta odio faucibus ipsum egestas, ac pellentesque nibh dignissim. Nam placerat lorem ipsum, ac faucibus augue sodales ac. Praesent et arcu elementum, mattis ipsum non, aliquam nisi. Donec pulvinar sapien at est dignissim aliquam. Sed a tellus quis felis sollicitudin molestie. Phasellus ac ex ornare diam eleifend semper et vel metus. In hac habitasse platea dictumst. Integer laoreet metus leo, in consequat arcu bibendum a. Etiam nunc elit, facilisis id malesuada non, pellentesque a magna. Nulla nec posuere massa.</p>
     </div>
 
-    <div id="about-us" class="container-fluid">
-      <div class="wrapper-about">
+    <div id="about-us" class="container-fluid hidden-xs">
+      <div class="wrapper-about col-md-8 col-md-offset-2 text-center">
         <div class="shape">
           <img src="https://scontent-ams2-1.xx.fbcdn.net/hprofile-xpt1/v/t1.0-1/c0.21.480.480/p480x480/12274489_192977351044679_3446901940558369221_n.jpg?oh=4114e3b5f9a5dd3565b1ae8dffa39248&oe=57033C83">
         </div>
@@ -112,8 +108,8 @@
       </div>
 
     </div>
-  </div>
-  <div id="portfolio">
+  </section>
+  <section id="portfolio container-fluid">
     <div class="gallery">
 
       <img src="img/Portfolio/morehazards.jpg" alt="More Hazards" />
@@ -122,29 +118,28 @@
 
     </div>
     <p class="caption">&nbsp;</p>
-  </div>
+  </section>
 
-  <div id="contact">
-    <a href="#contact"></a>
-    <h2>Kontakta oss</h2>
+  <section id="contact container-fluid">
+    <h2 class="text-center">Kontakta oss</h2>
 
 
-    <form class="form">
+    <form class="form col-xs-12 col-md-6 col-md-offset-2">
       <p>För info, frågor och prisförfrågningar - fyll i formuläret nedan så hör vi av oss!</p>
 
       <p class="name ">
-        <input type="text " name="name " id="name " placeholder="Namn " />
+        <input type="text " name="name " id="name " placeholder="Namn " class="form-control" />
 
         <p class="email ">
-          <input type="text " name="email " id="email " placeholder="mail@example.com " />
+          <input type="text " name="email " id="email " placeholder="mail@example.com " class="form-control"/>
         </p>
 
         <p class="text ">
-          <textarea name="text " placeholder="Ställ en fråga "></textarea>
+          <textarea name="text " placeholder="Ställ en fråga " class="form-control"></textarea>
         </p>
 
         <p class="submit ">
-          <input type="button" value="Skicka " />
+          <input type="button" value="Skicka " class="form-control"/>
         </p>
     </form>
     <a class="to-top " href="#main-logo-page">
@@ -152,7 +147,7 @@
         <p>Upp</p>
       </div>
     </a>
-  </div>
+  </section>
 
   <footer>
     <div id="footer_link">
